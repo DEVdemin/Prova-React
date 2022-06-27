@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+.Pai{
+    header{
+        display: flex;
+        justify-content: center;
+        font-family: 'Titan One', cursive;
+    }
+    .Opa{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 3em;
+        font-family: 'Poppins', sans-serif;
+        margin-bottom: 3em;
+    }
+    .inpuut{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    input{
+        font-family:'Roboto', sans-serif;
+        color: #000;
+
+    }
+    input::placeholder{
+        color: rgb(48, 47, 47);
+    }
+    .kkk{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2em;
+    }
+    button{
+        border: none;
+        background-color: #fff;
+        border-radius: 1.05em;
+        padding: 1em;
+    }
+    button:hover{
+        background-color: rgb(240, 228, 228);
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+.Paii{
+    header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Titan One', cursive;   
+     }
+     .opaa{
+         font-family: 'Poppins', sans-serif;
+     }
+
+     button{
+        border: none;
+        background-color: #fff;
+        border-radius: 1.05em;
+        padding: 1em;
+    }
+    button:hover{
+        background-color: rgb(240, 228, 228);
+        cursor: pointer;
+    }
+}
